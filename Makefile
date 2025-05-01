@@ -4,9 +4,13 @@ install:
 	python -m textblob.download_corpora
 
 test:
-	python -m pytest -vv --cov=hello
+	python -m pytest -vv --cov=wikiphrases --cov=nlplogic test_corenlp.py
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C *.py nlplogic/*.py
+
+format:
+	black *.py nlplogic
+
 
 all: install lint test
