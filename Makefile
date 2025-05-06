@@ -8,6 +8,8 @@ test:
 
 lint:
 	pylint --disable=R,C *.py nlplogic/*.py
+#	#docker run --rm -i hadolint/hadolint < Dockerfile # To lint your dockerfile
+
 
 format:
 	black *.py nlplogic
