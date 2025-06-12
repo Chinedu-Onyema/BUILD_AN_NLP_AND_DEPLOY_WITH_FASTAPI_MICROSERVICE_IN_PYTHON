@@ -1,5 +1,3 @@
-[![Python application test with Github Actions](https://github.com/Chinedu-Onyema/DataOps-With-PYTEST-CI-CD-IN-GITHUB-AWS/actions/workflows/testing_auction_in_cloud.yml/badge.svg)](https://github.com/Chinedu-Onyema/DataOps-With-PYTEST-CI-CD-IN-GITHUB-AWS/actions/workflows/testing_auction_in_cloud.yml)
-
 
 [![Python application test with Github Actions](https://github.com/Chinedu-Onyema/BUILD_AN_NLP_WITH_PYTHON/actions/workflows/main.yml/badge.svg)](https://github.com/Chinedu-Onyema/BUILD_AN_NLP_WITH_PYTHON/actions/workflows/main.yml)
 
